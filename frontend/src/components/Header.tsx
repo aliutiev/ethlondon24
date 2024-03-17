@@ -131,7 +131,7 @@ export function Header() {
               Log in
             </Button> */}
             <Button href="/dashboard" className="hidden lg:block">
-              Launch Dashboard
+              Dashboard
             </Button>
           </div>
         </Container>
