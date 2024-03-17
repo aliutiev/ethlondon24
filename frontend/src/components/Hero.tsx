@@ -15,7 +15,7 @@ import logoForbes from '@/images/logos/forbes.svg'
 import logoHuffpost from '@/images/logos/huffpost.svg'
 import logoTechcrunch from '@/images/logos/techcrunch.svg'
 import logoWired from '@/images/logos/wired.svg'
-import mobileMockup from '@/../images/logos/app-dashboard.webp'
+import mobileMockup from '@/images/app-dashboard.png'
 
 
 function BackgroundIllustration(props: React.ComponentPropsWithoutRef<'div'>) {
