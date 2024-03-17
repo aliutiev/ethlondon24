@@ -115,12 +115,11 @@ function StarRating({ rating }: { rating: Review['rating'] }) {
       {[...Array(5).keys()].map((index) => (
         <StarIcon
           key={index}
-          className={clsx('h-5 w-5', rating > index ? 'text-[#CDDF52]' : 'fill-gray-300')}
-          style={rating > index ? { color: '#CDDF52' } : {}}
+          className={clsx('h-5 w-5', rating > index ? 'fill-[#CDDF52]' : 'fill-gray-300')}
         />
       ))}
     </div>
-  );
+  )
 }
 
 
