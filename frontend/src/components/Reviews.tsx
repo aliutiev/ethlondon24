@@ -15,90 +15,91 @@ interface Review {
 
 const reviews: Array<Review> = [
   {
-    title: 'It really works.',
-    body: 'I downloaded Pocket today and turned $5000 into $25,000 in half an hour.',
-    author: 'CrazyInvestor',
+    title: 'Magic Money Multiplier',
+    body: 'I turned a modest sum into a treasure chest overnight with Gnosis Pay. Even my cat\'s impressed, and trust me, she\'s hard to please.',
+    author: 'GoldTouchGoose',
     rating: 5,
   },
   {
-    title: 'You need this app.',
-    body: 'I didn’t understand the stock market at all before Pocket. I still don’t, but at least I’m rich now.',
-    author: 'CluelessButRich',
+    title: 'Financial Ignorance Bliss',
+    body: 'Didn\'t know a Bitcoin from a Bit-o-Honey before Gnosis Pay. Still don\'t. But now I\'m crypto-rich and candy-rich, too.',
+    author: 'SweetToothSavant',
     rating: 5,
   },
   {
-    title: 'This shouldn’t be legal.',
-    body: 'Pocket makes it so easy to win big in the stock market that I can’t believe it’s actually legal.',
-    author: 'LivingDaDream',
+    title: 'Is This Even Legal?',
+    body: 'Gnosis Pay is so effective, it feels like I\'m getting away with something. If this is wrong, I don\'t want to be right!',
+    author: 'RebelWithACause',
     rating: 5,
   },
   {
-    title: 'Screw financial advisors.',
-    body: 'I barely made any money investing in mutual funds. With Pocket, I’m doubling my net-worth every single month.',
-    author: 'JordanBelfort1962',
+    title: 'Who Needs Advisors?',
+    body: 'Threw my financial advisor out the window—figuratively! Now it\'s just me, Gnosis Pay, and skyrocketing net worth.',
+    author: 'WindowOfOpportunity',
     rating: 5,
   },
   {
-    title: 'I love it!',
-    body: 'I started providing insider information myself and now I get new insider tips every 5 minutes. I don’t even have time to act on all of them. New Lamborghini is being delivered next week!',
-    author: 'MrBurns',
+    title: 'Insider, Schminsider',
+    body: 'Started off as a Gnosis user, now they\'re practically begging for my insider tips. Next stop: Lamborghini dealership!',
+    author: 'LamboLover',
     rating: 5,
   },
   {
-    title: 'Too good to be true.',
-    body: 'I was making money so fast with Pocket that it felt like a scam. But I sold my shares and withdrew the money and it’s really there, right in my bank account. This app is crazy!',
-    author: 'LazyRich99',
+    title: 'Speedy Riches',
+    body: 'I\'m making money so fast with Gnosis Pay, I\'m getting whiplash. And yes, the cash is real—I pinched myself!',
+    author: 'FastCashFreddy',
     rating: 5,
   },
   {
-    title: 'Wish I could give 6 stars',
-    body: 'This is literally the most important app you will ever download in your life. Get on this before it’s so popular that everyone else is getting these tips too.',
-    author: 'SarahLuvzCash',
+    title: 'Star Rating Broken',
+    body: 'If I could give Gnosis Pay more stars, I would. It\'s the Swiss Army knife of finance apps, but way shinier.',
+    author: 'FiveStarFanatic',
     rating: 5,
   },
   {
-    title: 'Bought an island.',
-    body: 'Yeah, you read that right. Want your own island too? Get Pocket.',
-    author: 'ScroogeMcduck',
+    title: 'Island Owner, Thanks Gnosis!',
+    body: 'Just bought my private island thanks to Gnosis Pay. The previous owner? A pirate. No joke.',
+    author: 'IslandInnovator',
     rating: 5,
   },
   {
-    title: 'No more debt!',
-    body: 'After 2 weeks of trading on Pocket I was debt-free. Why did I even go to school at all when Pocket exists?',
-    author: 'BruceWayne',
+    title: 'Debt, Be Gone!',
+    body: 'Used Gnosis Pay for a fortnight, and now I\'m debt-free. Who needs college when you have Gnosis?',
+    author: 'DebtDissolver',
     rating: 5,
   },
   {
-    title: 'I’m 13 and I’m rich.',
-    body: 'I love that with Pocket’s transaction anonymization I could sign up and start trading when I was 12 years old. I had a million dollars before I had armpit hair!',
-    author: 'RichieRich',
+    title: 'The Kid Crypto King',
+    body: 'I\'m not even in high school, and I\'m out-earning my parents, thanks to Gnosis Pay. Take that, allowance!',
+    author: 'MillionaireMinor',
     rating: 5,
   },
   {
-    title: 'Started an investment firm.',
-    body: 'I charge clients a 3% management fee and just throw all their investments into Pocket. Easy money!',
-    author: 'TheCountOfMonteChristo',
+    title: 'Investment Genius Here',
+    body: 'Why work hard when Gnosis Pay works smarter? My clients think I\'m a genius. Gnosis, you\'re the real MVP.',
+    author: 'LazyGeniusInvestor',
     rating: 5,
   },
   {
-    title: 'It’s like a superpower.',
-    body: 'Every tip Pocket has sent me has paid off. It’s like playing Blackjack but knowing exactly what card is coming next!',
-    author: 'ClarkKent',
+    title: 'Financial Superpowers',
+    body: 'With Gnosis Pay\'s tips, I feel like I\'ve got X-ray vision for the markets. Super profits, here I come!',
+    author: 'MarketMarvel',
     rating: 5,
   },
   {
-    title: 'Quit my job.',
-    body: 'I downloaded Pocket three days ago and quit my job today. I can’t believe no one else thought to build a stock trading app that works this way!',
-    author: 'GeorgeCostanza',
+    title: 'Job? What Job?',
+    body: 'Gnosis Pay made me so much money, I forgot what my office looks like. Best "sick day" ever.',
+    author: 'OfficeEscapee',
     rating: 5,
   },
   {
-    title: 'Don’t download this app',
-    body: 'Unless you want to have the best life ever! I am literally writing this from a yacht.',
-    author: 'JeffBezos',
+    title: 'Best Life Ever',
+    body: 'If you crave a life of luxury, Gnosis Pay is your golden ticket. Seriously, I\'m typing this from my gold-plated yacht.',
+    author: 'LuxLifeLuca',
     rating: 5,
   },
 ]
+
 
 function StarIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -114,15 +115,14 @@ function StarRating({ rating }: { rating: Review['rating'] }) {
       {[...Array(5).keys()].map((index) => (
         <StarIcon
           key={index}
-          className={clsx(
-            'h-5 w-5',
-            rating > index ? 'fill-cyan-500' : 'fill-gray-300',
-          )}
+          className={clsx('h-5 w-5', rating > index ? 'text-[#CDDF52]' : 'fill-gray-300')}
+          style={rating > index ? { color: '#CDDF52' } : {}}
         />
       ))}
     </div>
-  )
+  );
 }
+
 
 function Review({
   title,
@@ -243,7 +243,7 @@ function ReviewGrid() {
             reviewClassName={(reviewIndex) =>
               clsx(
                 reviewIndex >= column1.length + column3[0].length &&
-                  'md:hidden',
+                'md:hidden',
                 reviewIndex >= column1.length && 'lg:hidden',
               )
             }
@@ -282,7 +282,7 @@ export function Reviews() {
           id="reviews-title"
           className="text-3xl font-medium tracking-tight text-gray-900 sm:text-center"
         >
-          Everyone is changing their life with Pocket.
+          Everyone's hitting their financial glow-up with Gnosis Pay.
         </h2>
         <p className="mt-2 text-lg text-gray-600 sm:text-center">
           Thousands of people have doubled their net-worth in the last 30 days.

@@ -36,6 +36,9 @@ export default {
       },
       colors: ({ colors }) => ({
         gray: colors.neutral,
+        'custom-green': {
+          '500': 'rgb(205, 223, 82)',
+        },
       }),
       fontFamily: {
         sans: 'var(--font-inter)',

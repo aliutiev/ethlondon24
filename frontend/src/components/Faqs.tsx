@@ -3,56 +3,57 @@ import { Container } from '@/components/Container'
 const faqs = [
   [
     {
-      question: 'How do I know the tips are good?',
+      question: "How can I be sure Gnosis Pay's insights are top-notch?",
       answer:
-        'Our whole business depends on our tips being good, so it’s in our best interest that they are. The results of our customers speak for themselves, just trust us.',
+        "Our success is tied to yours! If our insights were any sharper, they'd be cutting diamonds. Our users are living their best financial lives, and that's no coincidence!",
     },
     {
-      question: 'Isn’t this insider trading?',
+      question: "Is using Gnosis Pay kind of like having insider knowledge?",
       answer:
-        'Yes exactly. But at scale! Historically you could only make insider trades with knowledge from your direct network. Pocket brings you insider trading tips from people you don’t even know.',
+        "Think of it as having a financial crystal ball, but cooler and completely legal. With Gnosis Pay, you're not just in the loop; you're creating it!",
     },
     {
-      question: 'But isn’t insider trading illegal?',
+      question: "So, is this insider trading or what?",
       answer:
-        'Here’s the thing: you’re the one doing the insider trading, not us. We’re just giving you the tips and some tools to make trades. We’re not doing anything wrong here.',
-    },
-  ],
-  [
-    {
-      question: 'Do the people giving you tips realize what they are doing?',
-      answer:
-        'Again I would argue this isn’t really our responsibility. People make their own choices. If they don’t research the consequences that’s on them, not on us.',
-    },
-    {
-      question: 'Where is Pocket based?',
-      answer:
-        'Let’s just say it’s not somewhere where the SEC is going to find us.',
-    },
-    {
-      question: 'Is there any age limit to trading on Pocket?',
-      answer:
-        'For our free plan, the age limit is based on the minimum age to trade in your country of residence. Our VIP plan uses advanced transaction anonymization though, so you can use that plan even if you’re 9 years old. Or a dog.',
+        "Absolutely not! We're all about transparency and legal fun. Think of us as your guide to the treasure, but you're the one with the map.",
     },
   ],
   [
     {
-      question: 'How did you get this on the App Store?',
+      question: "Do the tipsters know what they're doing?",
       answer:
-        'Honestly we were surprised too, but eventually we found out that the app reviewer found the app so compelling they approved it just so they could use it themselves.',
+        "Our community is savvy! They know the drill and they're here to share the wealth, not insider secrets. It's like a potluck, but everyone brings gold nuggets.",
     },
     {
-      question: 'How do I explain the money I withdraw from Pocket to the IRS?',
+      question: "Where is Gnosis Pay based?",
       answer:
-        'This feels like one-hundred percent a you problem. Pocket is not responsible in any way for your tax returns.',
+        "If we told you, we'd have to... just kidding! Let's just say we're conveniently located in the cloud, accessible everywhere, avoiding the SEC's curious eyes.",
     },
     {
-      question: 'How do I become an insider?',
+      question: "Any age restrictions for using Gnosis Pay?",
       answer:
-        'Contact us with some details about your industry and the type of access you have to apply for an insider account. Once approved, we’ll send you a guide on collecting insider information without being detected at work.',
+        "As long as you're old enough to know the difference between Bitcoin and Bitmoji, you're good in our book. But seriously, follow your local laws, even if your dog is a financial genius.",
+    },
+  ],
+  [
+    {
+      question: "How did Gnosis Pay get approved?",
+      answer:
+        "Even the strictest app reviewers couldn't resist our charm (and robust security features). Plus, who can say no to a bit of financial magic?",
+    },
+    {
+      question: "What do I tell the IRS about my Gnosis Pay gains?",
+      answer:
+        "Tell them it's all skill, baby! Just kidding, pay your taxes. Gnosis Pay is about making money smarter, not hiding it under your mattress.",
+    },
+    {
+      question: "How can I become a Gnosis insider?",
+      answer:
+        "Got a knack for spotting trends? Slide into our DMs with your creds, and we might just send you our secret handshake. Insider status: unlocked!",
     },
   ],
 ]
+
 
 export function Faqs() {
   return (
@@ -72,7 +73,7 @@ export function Faqs() {
           <p className="mt-2 text-lg text-gray-600">
             If you have anything else you want to ask,{' '}
             <a
-              href="mailto:info@example.com"
+              href="https://gnosispay.com/"
               className="text-gray-900 underline"
             >
               reach out to us

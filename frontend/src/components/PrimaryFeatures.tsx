@@ -27,6 +27,9 @@ import {
   TupleLogo,
 } from '@/components/StockLogos'
 
+import mobileMockup from '@/images/app-dashboard.webp'
+
+
 const MotionAppScreenHeader = motion(AppScreen.Header)
 const MotionAppScreenBody = motion(AppScreen.Body)
 
@@ -37,27 +40,29 @@ interface CustomAnimationProps {
 
 const features = [
   {
-    name: 'Invite friends for better returns',
+    name: 'Customizable Auto-Compounding',
     description:
-      'For every friend you invite to Pocket, you get insider notifications 5 seconds sooner. And it’s 10 seconds if you invite an insider.',
+      'Set your own auto-compounding limits and preferences using our intuitive dashboard, ensuring your digital assets work for you exactly how you envision.',
+    icon: DeviceTouchIcon,
+    screen: InvestScreen,
+  },
+  {
+    name: 'Enhance Earnings with Friend Referrals',
+    description:
+      'Boost your Gnosis Pay benefits by inviting friends. Gain early access to exclusive insights, and if your invitee is a high-tier member, unlock even more perks.',
     icon: DeviceUserIcon,
     screen: InviteScreen,
   },
   {
-    name: 'Notifications on stock dips',
+    name: 'Real-Time Crypto Market Alerts',
     description:
-      'Get a push notification every time we find out something that’s going to lower the share price on your holdings so you can sell before the information hits the public markets.',
+      'Receive instant alerts on crypto market trends and potential dips, allowing you to manage your digital assets proactively, straight from your dashboard.',
     icon: DeviceNotificationIcon,
     screen: StocksScreen,
   },
-  {
-    name: 'Invest what you want',
-    description:
-      'We hide your stock purchases behind thousands of anonymous trading accounts, so suspicious activity can never be traced back to you.',
-    icon: DeviceTouchIcon,
-    screen: InvestScreen,
-  },
+
 ]
+
 
 function DeviceUserIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -185,9 +190,9 @@ const bodyAnimation: MotionProps = {
 
 type ScreenProps =
   | {
-      animated: true
-      custom: CustomAnimationProps
-    }
+    animated: true
+    custom: CustomAnimationProps
+  }
   | { animated?: false }
 
 function InviteScreen(props: ScreenProps) {
@@ -446,7 +451,7 @@ function FeaturesDesktop() {
       </Tab.List>
       <div className="relative col-span-6">
         <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
-          <CircleBackground color="#13B5C8" className="animate-spin-slower" />
+          <CircleBackground color="#CDDF52" className="animate-spin-slower" />
         </div>
         <PhoneFrame className="z-10 mx-auto w-full max-w-[366px]">
           <Tab.Panels as={Fragment}>
@@ -523,7 +528,7 @@ function FeaturesMobile() {
             <div className="relative transform overflow-hidden rounded-2xl bg-gray-800 px-5 py-6">
               <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
                 <CircleBackground
-                  color="#13B5C8"
+                  color="#CDDF52"
                   className={featureIndex % 2 === 1 ? 'rotate-180' : undefined}
                 />
               </div>
@@ -578,13 +583,14 @@ export function PrimaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
           <h2 className="text-3xl font-medium tracking-tight text-white">
-            Every feature you need to win. Try it for yourself.
+            Unlock the full potential of your investments with every feature at your fingertips.
+
           </h2>
           <p className="mt-2 text-lg text-gray-400">
-            Pocket was built for investors like you who play by their own rules
-            and aren’t going to let SEC regulations get in the way of their
-            dreams. If other investing tools are afraid to build it, Pocket has
-            it.
+            Designed for the trailblazer investor, Gnosis Safe Pay transcends conventional boundaries, letting nothing,
+            not even SEC regulations, hinder your financial journey.
+            Where others see limits, Gnosis Safe Pay sees opportunities.
+
           </p>
         </div>
       </Container>
